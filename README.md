@@ -1,17 +1,15 @@
-# Functions
-
-* In this activity, you will write a function to compute the arithmetic mean (average) for a list of numbers.
+# Wrestling with functions
 
 ## Instructions
 
-* Write a function called `average` that accepts a list of numbers.
+* Analyze the code and CSV provided, looking specifically for what needs to still be added to the application.
 
-  * The function `average` should return the arithmetic [mean](https://en.wikipedia.org/wiki/Arithmetic_mean) (average) for a list of numbers.
+* Using the starter code provided, create a function called `print_percentages` which takes in a parameter called `wrestler_data` and does the following:
 
-* Test your function by calling it with different values and printing the results.
+  * Uses the data stored within `wrestler_data` to calculate the percentage of matches the wrestler won, lost, and drew over the course of a year.
 
-- - -
+  * Prints out the stats for the wrestler to the terminal.
 
-## Hints
+## Bonus
 
-* [Arithmetic Mean (Average)](https://en.wikipedia.org/wiki/Arithmetic_mean)
+* Still within the `print_percentages()` function, create a conditional that checks a wrestler's loss percentage and prints either "Jobber" to the screen if the number was greater than fifty or "Superstar" if the number was less than 50.
